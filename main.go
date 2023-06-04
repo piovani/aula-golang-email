@@ -7,10 +7,10 @@ import (
 )
 
 func main() {
-	host := "sandbox.smtp.mailtrap.io"
-	port := 587
-	user := "fb52525f87cad8"
-	password := "3c8c996b2c1c9b"
+	host := ""
+	port := 0
+	user := ""
+	password := ""
 
 	msg := gomail.NewMessage()
 	msg.SetHeader("From", "from@gmail.com")
